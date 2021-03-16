@@ -239,7 +239,10 @@ a {
 
     .sub-section {
         display: block;
-        
+    }
+    
+    .sub-section-alternative {
+        padding-top: 0px;
     }
     
     .headshot {
