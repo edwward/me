@@ -206,6 +206,7 @@ a {
     .project-container {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .project-card {
@@ -260,6 +261,10 @@ a {
         font-weight: 300;
     }
 
+    p.aspiring {
+        margin-bottom: 20px;
+    }
+
     p.subtext {
         font-size: 20px;
         padding: 0 10px 0 10px;
@@ -278,7 +283,7 @@ a {
         width: 100px;
         height: 100px;
     }
-    
+
     .btn {
         -webkit-border-radius: 10;
         -moz-border-radius: 10;
@@ -291,3 +296,4 @@ a {
       }
 
 }
+
