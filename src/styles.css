@@ -278,5 +278,16 @@ a {
         width: 100px;
         height: 100px;
     }
+    
+    .btn {
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 30px;
+        background: coral;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
 
 }
