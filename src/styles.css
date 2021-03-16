@@ -203,6 +203,18 @@ a {
         cursor: pointer;
     }
 
+    .project-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .project-card {
+        width: 300px;
+        height: 500px;
+        box-shadow: 5px 5px 20px rgb(197, 195, 195);
+        margin: 20px;
+    }
+
     ul {
         display: none;
         background-color: #2b2c38;
@@ -248,14 +260,23 @@ a {
         font-weight: 300;
     }
 
+    p.subtext {
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+
     h2 {
+        font-size: 40px;
         text-align: center;
     }
+
+    h3 {
+        font-size: 25px;
+        }
     
     svg{
         width: 100px;
         height: 100px;
     }
-    
 
 }
