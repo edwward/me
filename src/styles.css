@@ -16,7 +16,6 @@ section {
   background-color: #1c1d25;
   color: white;
   font-size: 40px;
-  
 }
 
 .hero-area {
@@ -24,7 +23,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 footer {
