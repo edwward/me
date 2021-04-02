@@ -16,12 +16,15 @@ section {
   background-color: #1c1d25;
   color: white;
   font-size: 40px;
+  
 }
 
 .hero-area {
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 footer {
@@ -182,7 +185,7 @@ a {
     background-color: transparent;
     color: white;
     font-size: 80px;
-    margin: 20px;
+    margin: 20px 40px 20px 0;
     align-self: flex-end;
   }
 
@@ -206,7 +209,6 @@ a {
   ul {
     display: none;
     background-color: #2b2c38;
-    margin: 0ppx;
   }
 
   ul.show {
